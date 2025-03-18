@@ -4,10 +4,10 @@ export default {
     slug: "campus-navigator",
     version: "1.0.0",
     orientation: "portrait",
-    icon: "./assets/icon.png",
+    icon: ".assets/icon.svg",
     userInterfaceStyle: "light",
     splash: {
-      image: "./assets/splash.png",
+      image: "./assets/icon.png",
       resizeMode: "contain",
       backgroundColor: "#ffffff"
     },
@@ -27,7 +27,7 @@ export default {
     },
     android: {
       adaptiveIcon: {
-        foregroundImage: "./assets/adaptive-icon.png",
+        foregroundImage: "./assets/adaptive-icon.svg",
         backgroundColor: "#FFFFFF"
       },
       package: "com.yourcompany.campusnavigator",
